@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KotaKita | Daftar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Kota</span>Kita</a>
+        <nav>
+            <div class="navbar"></div>
+            <a href="/">Home</a>
+            <a href="/kategori">Kategori</a>
+            <a class="active" href="/daftar">Daftar</a>
+            <form action="/" method="GET">
+                <input type="text" name="keyword" placeholder="Cari disini ...">
+                <button type="submit">Cari</button>
+            </form>
+            <a href="/login">Login</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="table" >
+        <form action="/daftar" method="GET">
+            <table class="table" >
+                <h2 align="center">DAFTAR</h2>
+                <p><h5 align="center">Daftarkan akun kalian di sini, </h5></p>
+                <p><h5 align="center">agar bisa memainkan game Website kami secara langsung</h5></p>
+
+                        <tr>
+                            <td>Nama Lengkap</td>
+                            <td>:</td>
+                            <td><input type="text" name="nama"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td><input type="text" name="jk"></td>
+                        </tr>
+                         
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:</td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>No Hp</td>
+                            <td>:</td>
+                            <td><input type="number" name="hp"></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                        <td><input type="submit" name="submit" value="Simpan"/></td>
+                        </tr>
+
+                </table>
+            </form>
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+{
+  "name": "uts-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render-html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "render-html.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
